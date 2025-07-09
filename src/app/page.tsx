@@ -39,7 +39,7 @@ export default function ChatbotUI() {
   const [uploadedFileName, setUploadedFileName] = useState<string>("");
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
-  const GEMINI_API_KEY = "USE YOUR API KEY";
+  const GEMINI_API_KEY = "AIzaSyBdTUTNQ_K74nj-Sp08vDw6bXlBOifPLg4";
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
